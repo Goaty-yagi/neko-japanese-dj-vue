@@ -10,7 +10,7 @@ ALLOWED_HOSTS = os.environ['ALLOWED_HOSTS'].split(",")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = os.environ['DEBUG']
 
-CORS_ALLOWED_ORIGINS = [os.environ['CORS_ALLOWED_ORIGINS']]
+# CORS_ALLOWED_ORIGINS = [os.environ['CORS_ALLOWED_ORIGINS']]
 
 DEFAULT_FILE_STORAGE = 'cloudinary_storage.storage.MediaCloudinaryStorage'
 CLOUDINARY_STORAGE = json.loads(os.environ['CLOUDINARY_STORAGE'])
