@@ -121,7 +121,6 @@ import RegisterConfirm from '@/components/signin/RegisterConfirm.vue'
 import Registered from '@/components/signin/Registered.vue'
 import Edit from '@/components/signin/Edit.vue'
 import GoogleButton from '@/components/signin/GoogleButton.vue'
-import country from '../assets/country.json';
 
 
 export default {
@@ -169,8 +168,7 @@ export default {
             showPassword: false,
             slideIn:true,
             slideOut:false,
-            showSellect:false,
-            countryData:country.country,       
+            showSellect:false,     
             filled: false,
             googleClicked: false,
         }
